@@ -1,10 +1,7 @@
 # HTTP INJECTOR - SIMULATOR
 👨‍💻ESSE É PEQUENO JOGO QUE RODA NO CONSOLE DA IDE.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
-[![GitHub Repo stars](https://img.shields.io/badge/MEUS-CURSOS-03A9F4?logo=github)](https://github.com/VILHALVA?tab=repositories&q=CURSO&type=public&language=&sort=)
-
-<img src="FOTO.png" align="center" width="300"> <br>
+<img src="FOTO.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
 Este programa é um simulador interativo de um jogo com temática de HTTP injector e navegação na internet. Aqui está uma descrição mais concisa do que o programa faz:
@@ -22,4 +19,33 @@ Este programa é um simulador interativo de um jogo com temática de HTTP inject
 6. **Tempo de Conexão:** Após a navegação, o programa conta regressivamente a desconexão, exibindo mensagens de status.
 
 7. **Repetição:** Após a desconexão, o programa retorna ao início do loop, permitindo que o usuário escolha um novo IP e repita o processo.
+
+## COMO USAR?
+**Passo 1:** Clone o repositório para o seu sistema local.
+
+```bash
+git clone https://github.com/VILHALVA/HTTP-INJECTOR.git
+```
+
+**Passo 2:** Navegue até o diretório do projeto.
+
+```bash
+cd HTTP-INJECTOR
+```
+
+**Passo 3:** Descompacte o arquivo ZIP (se você baixou manualmente):
+
+```bash
+unzip HTTP-INJECTOR.zip
+```
+
+**Passo 4:** Execute o executável do projeto.
+
+```bash
+./HTTP-INJECTOR
+```
+
+## CREDITOS:
+- [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
+
 
