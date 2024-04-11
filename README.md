@@ -20,6 +20,37 @@ Este programa é um simulador interativo de um jogo com temática de HTTP inject
 
 7. **Repetição:** Após a desconexão, o programa retorna ao início do loop, permitindo que o usuário escolha um novo IP e repita o processo.
 
-## SAIBA MAIS:
+## EXECUTANDO O JOGO:
+1. Execute o código em um ambiente Python.
+2. Quando você iniciar o jogo, será apresentado um menu de IPs disponíveis para conexão.
+3. Cada IP terá uma letra associada (de A a J).
+4. O jogo selecionará aleatoriamente um IP para você conectar.
+5. Você deverá digitar a letra correspondente ao IP que deseja usar para conexão.
+6. Se a letra digitada corresponder ao IP selecionado pelo jogo, você será conectado com sucesso.
+7. Após a conexão bem-sucedida, será exibido um menu de sites disponíveis para acessar.
+8. Cada site terá uma letra associada (de A a K).
+9. Você deverá digitar a letra correspondente ao site que deseja acessar.
+10. Se a letra digitada corresponder ao site selecionado, o site será aberto em seu navegador padrão.
+11. Você terá um tempo limitado de conexão (60 segundos). Após esse tempo, você será desconectado automaticamente.
+12. Após a desconexão, você terá a opção de tentar novamente ou sair do jogo.
+13. Divirta-se explorando diferentes IPs e acessando diferentes sites!
+
+## SOBRE O EXECUTAVEL:
+- Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
+
+- É importante explicar que ao executar o arquivo executável deste jogo, é possível que o antivírus dispare um alerta de segurança. Isso ocorre porque o jogo abre sites no navegador da web diretamente.
+
+    * Para lidar com isso, há 2 alternativas:
+
+    1. **Adicionar exceção ao antivírus:** Você pode optar por adicionar uma exceção ao antivírus para permitir que o jogo abra os sites no navegador sem disparar alertas. Isso geralmente pode ser feito acessando as configurações do antivírus e adicionando o arquivo executável do jogo à lista de exceções.
+
+    2. **Executar apenas o "CODIGO.py":** Uma alternativa é optar por executar apenas o arquivo de código-fonte Python ("CODIGO.py"). Isso evita que o antivírus dispare alertas, já que você e o sistema podem inspecionar o código diretamente.
+
+## NÃO SABE?
+- Entendemos que para manipular arquivos em muitas linguagens e tecnologias, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
+* [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
+* [CURSO DE EXE](https://github.com/VILHALVA/CURSO-DE-EXE)
+* [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+
+## CREDITOS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
-- [FAÇA OS NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
