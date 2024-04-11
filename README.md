@@ -44,7 +44,7 @@ Este programa é um simulador interativo de um jogo com temática de HTTP inject
 
     1. **Adicionar exceção ao antivírus:** Você pode optar por adicionar uma exceção ao antivírus para permitir que o jogo abra os sites no navegador sem disparar alertas. Isso geralmente pode ser feito acessando as configurações do antivírus e adicionando o arquivo executável do jogo à lista de exceções.
 
-    2. **Executar apenas o "CODIGO.py":** Uma alternativa é optar por executar apenas o arquivo de código-fonte Python ("CODIGO.py"). Isso evita que o antivírus dispare alertas, já que você e o sistema podem inspecionar o código diretamente.
+    2. **Executar apenas o `CODIGO.py`:** Uma alternativa é optar por executar apenas o arquivo de código-fonte Python (`CODIGO.py`). Isso evita que o antivírus dispare alertas, já que você e o sistema podem inspecionar o código fonte diretamente.
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens e tecnologias, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
