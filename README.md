@@ -36,20 +36,36 @@ Este programa é um simulador interativo de um jogo com temática de HTTP inject
 13. Divirta-se explorando diferentes IPs e acessando diferentes sites!
 
 ## SOBRE O EXECUTAVEL:
-- Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
+### 1. EXECUTANDO:
+    - Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
 
-- É importante explicar que ao executar o arquivo executável deste jogo, é possível que o antivírus dispare um alerta de segurança. Isso ocorre porque o jogo abre sites no navegador da web diretamente.
+    - É importante explicar que ao executar o arquivo executável deste jogo, é possível que o antivírus dispare um alerta de segurança. Isso ocorre porque o jogo abre sites no navegador da web diretamente.
 
-    * Para lidar com isso, há 2 alternativas:
+        **Para lidar com isso, há 2 alternativas:**
 
-    1. **Adicionar exceção ao antivírus:** Você pode optar por adicionar uma exceção ao antivírus para permitir que o jogo abra os sites no navegador sem disparar alertas. Isso geralmente pode ser feito acessando as configurações do antivírus e adicionando o arquivo executável do jogo à lista de exceções.
+        1. **Adicionar exceção ao antivírus:** Você pode optar por adicionar uma exceção ao antivírus para permitir que o jogo abra os sites no navegador sem disparar alertas. Isso geralmente pode ser feito acessando as configurações do antivírus e adicionando o arquivo executável do jogo à lista de exceções.
 
-    2. **Executar apenas o `CODIGO.py`:** Uma alternativa é optar por executar apenas o arquivo de código-fonte Python (`CODIGO.py`). Isso evita que o antivírus dispare alertas, já que você e o sistema podem inspecionar o código fonte diretamente.
+        2. **Executar apenas o `CODIGO.py`:** Uma alternativa é optar por executar apenas o arquivo de código-fonte Python (`CODIGO.py`). Isso evita que o antivírus dispare alertas, já que você e o sistema podem inspecionar o código fonte diretamente.
+
+### 2. GERANDO:
+   **1. Instalação do PyInstaller:**
+   - Certifique-se de ter o PyInstaller instalado. Se não tiver, instale usando o comando abaixo:
+   ```bash
+   pip install pyinstaller
+   ```
+
+   **2. Gerando o Executável:**
+   - Para gerar o executável, utilize o comando `pyinstaller` seguido de opções:
+      - `--icon="imagem.ico"`: Especifica o ícone do executável.
+      - `-F`: Gera um único arquivo executável em vez de vários.
+      - `CODIGO.py`: Substitua "CODIGO.py" pelo nome do seu arquivo Python principal.
+   ```bash
+   pyinstaller --icon="imagem.ico" -F CODIGO.py
+   ```
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens e tecnologias, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
 * [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
-* [CURSO DE EXE](https://github.com/VILHALVA/CURSO-DE-EXE)
 * [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
 ## CREDITOS:
