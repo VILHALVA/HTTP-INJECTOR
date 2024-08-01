@@ -21,7 +21,10 @@ Este programa é um simulador interativo de um jogo com temática de HTTP inject
 7. **Repetição:** Após a desconexão, o programa retorna ao início do loop, permitindo que o usuário escolha um novo IP e repita o processo.
 
 ## EXECUTANDO O JOGO:
-1. Execute o código em um ambiente Python.
+1. Navegue até o diretório `./CODIGO`, e execute o arquivo Python com o comando:
+```bash
+python CODIGO.py
+```
 2. Quando você iniciar o jogo, será apresentado um menu de IPs disponíveis para conexão.
 3. Cada IP terá uma letra associada (de A a J).
 4. O jogo selecionará aleatoriamente um IP para você conectar.
