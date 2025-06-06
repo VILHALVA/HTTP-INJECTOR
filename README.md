@@ -1,4 +1,4 @@
-# HTTP INJECTOR - SIMULATOR
+# HTTP INJECTOR
 👨‍💻ESSE É PEQUENO JOGO QUE RODA NO CONSOLE DA IDE.
 
 <img src="FOTO.png" align="center" width="500"> <br>
@@ -40,7 +40,7 @@ python CODIGO.py
 
 ## SOBRE O EXECUTAVEL:
 ### 1. EXECUTANDO:
-- Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
+- Este arquivo executável está disponível no diretório `./APP`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente.
 
 - É importante explicar que ao executar o arquivo executável deste jogo, é possível que o antivírus dispare um alerta de segurança. Isso ocorre porque o jogo abre sites no navegador da web diretamente.
 
@@ -57,14 +57,18 @@ python CODIGO.py
    pip install pyinstaller
    ```
 
-   **2. Gerando o Executável:**
-   - Para gerar o executável, utilize o comando `pyinstaller` seguido de opções:
-      - `--icon="imagem.ico"`: Especifica o ícone do executável.
-      - `-F`: Gera um único arquivo executável em vez de vários.
-      - `CODIGO.py`: Substitua "CODIGO.py" pelo nome do seu arquivo Python principal.
+   **2. Gerando o Executável**
+   - No diretório `./CODIGO`, execute o comando abaixo para gerar o executável a partir do arquivo `.spec`:
+
    ```bash
-   pyinstaller --icon="imagem.ico" -F CODIGO.py
+   pyinstaller EXECUTAVEL.spec
    ```
+
+   - O arquivo `HTTP INJECTOR.exe` será criado dentro da pasta `./CODIGO/dist`.
+
+   - Após a geração, você pode mover o executável para `./APP` e remover as pastas temporárias `./CODIGO/build` e `./CODIGO/dist`.
+
+   - Para executar o aplicativo, basta dar dois cliques no arquivo `.exe`.
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens e tecnologias, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
