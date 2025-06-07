@@ -21,22 +21,35 @@ Este programa é um simulador interativo de um jogo com temática de HTTP inject
 7. **Repetição:** Após a desconexão, o programa retorna ao início do loop, permitindo que o usuário escolha um novo IP e repita o processo.
 
 ## EXECUTANDO O JOGO:
-1. Navegue até o diretório `./CODIGO`, e execute o arquivo Python com o comando:
-```bash
-python CODIGO.py
-```
-2. Quando você iniciar o jogo, será apresentado um menu de IPs disponíveis para conexão.
-3. Cada IP terá uma letra associada (de A a J).
-4. O jogo selecionará aleatoriamente um IP para você conectar.
-5. Você deverá digitar a letra correspondente ao IP que deseja usar para conexão.
-6. Se a letra digitada corresponder ao IP selecionado pelo jogo, você será conectado com sucesso.
-7. Após a conexão bem-sucedida, será exibido um menu de sites disponíveis para acessar.
-8. Cada site terá uma letra associada (de A a K).
-9. Você deverá digitar a letra correspondente ao site que deseja acessar.
-10. Se a letra digitada corresponder ao site selecionado, o site será aberto em seu navegador padrão.
-11. Você terá um tempo limitado de conexão (60 segundos). Após esse tempo, você será desconectado automaticamente.
-12. Após a desconexão, você terá a opção de tentar novamente ou sair do jogo.
-13. Divirta-se explorando diferentes IPs e acessando diferentes sites!
+1. Navegue até o diretório `./CODIGO` e execute o arquivo Python com o seguinte comando:
+
+   ```bash
+   python CODIGO.py
+   ```
+
+2. Ao iniciar, será exibido um menu com IPs disponíveis para conexão.
+
+3. Cada IP estará associado a uma letra (de **A** a **J**).
+
+4. O jogo escolherá aleatoriamente um desses IPs como o destino da conexão.
+
+5. Digite a letra correspondente ao IP que deseja usar.
+
+6. Se a letra escolhida coincidir com o IP selecionado pelo jogo, a conexão será realizada com sucesso.
+
+7. Após a conexão, será exibido um menu com sites disponíveis para acesso.
+
+8. Cada site estará associado a uma letra (de **A** a **K**).
+
+9. Digite a letra correspondente ao site que deseja acessar.
+
+10. Se a letra escolhida coincidir com o site selecionado, ele será aberto em seu navegador padrão.
+
+11. A conexão permanecerá ativa por um tempo limitado de **60 segundos**. Após esse período, você será desconectado automaticamente.
+
+12. Ao final da sessão, você poderá escolher entre **tentar novamente** ou **encerrar o jogo**.
+
+13. Divirta-se explorando diferentes IPs e acessando vários sites!
 
 ## SOBRE O EXECUTAVEL:
 ### 1. EXECUTANDO:
@@ -51,13 +64,15 @@ python CODIGO.py
     2. **Executar apenas o `CODIGO.py`:** Uma alternativa é optar por executar apenas o arquivo de código-fonte Python (`CODIGO.py`). Isso evita que o antivírus dispare alertas, já que você e o sistema podem inspecionar o código fonte diretamente.
 
 ### 2. GERANDO:
+> **IMPORTANTE:** Antes de gerar o novo `executável`, certifique-se de excluir o arquivo `./APP/HTTP INJECTOR.exe`.
+
    **1. Instalação do [PyInstaller:](https://pyinstaller.org/en/stable/)**
    - Certifique-se de ter o PyInstaller instalado. Se não tiver, instale usando o comando abaixo:
    ```bash
    pip install pyinstaller
    ```
 
-   **2. Gerando o Executável**
+   **2. Gerando o Executável:**
    - No diretório `./CODIGO`, execute o comando abaixo para gerar o executável a partir do arquivo `.spec`:
 
    ```bash
